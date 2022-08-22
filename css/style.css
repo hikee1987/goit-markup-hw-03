@@ -188,7 +188,7 @@ body {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-tx-color);
 }
@@ -196,7 +196,7 @@ body {
 .team-worked {
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-tx-color);
 }
@@ -268,3 +268,4 @@ body {
 .adress .contact:focus {
   color: var(--activate-btn-color);
 }
+
