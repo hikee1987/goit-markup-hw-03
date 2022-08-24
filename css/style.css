@@ -6,6 +6,7 @@
 }
 
 
+
 body {
   font-family: 'Roboto', 'sans-serif';
   color: var(--primary-tx-color);
@@ -13,7 +14,24 @@ body {
   letter-spacing: 0.03em;
 }
 
+/**
+  |============================
+  | Reset
+  |============================
+*/
 
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
 
 .hide-title {
   visibility: hidden;
@@ -21,9 +39,45 @@ body {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid tomato;
+  outline-offset: -2px;
 }
 
 /* Шапка сайта ================================================*/
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+/* .header-navi {
+  display: flex;
+} */
+
+/* .navi {
+  margin-top: 24px;
+  margin-right: 25px;
+  margin-bottom: 93px;
+} */
+
+.header-item {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 
 .navi .logo {
   font-family: 'Raleway';
@@ -50,6 +104,7 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--primary-tx-color);
+
 }
 
 .navi .current {
@@ -58,7 +113,7 @@ body {
 
 .navi .link:hover,
 .navi .link:focus {
-  color: var(--activate-color);
+  color: var(--activate-btn-color);
 }
 
 
@@ -66,6 +121,7 @@ body {
 /* Наші переваги ================================================ */
 
 .page .button {
+  border-radius: 4px;
   cursor: pointer;
   font-family: 'Roboto';
   font-style: normal;
@@ -74,16 +130,12 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--primary-tx-color);
-
-
-
 }
 
 .page .button:hover,
 .page .button:focus {
   color: var(--secondary-bgd-color);
   background: var(--activate-btn-color);
-
 }
 
 
@@ -115,6 +167,8 @@ body {
   line-height: 1.14;
   color: var(--secondary-tx-color);
   text-decoration: none;
+  margin-top: 32px;
+  margin-right: 50px;
 }
 
 .auth .link:hover,
@@ -124,8 +178,17 @@ body {
 
 /* Главная страница ================================================ */
 
+.hero {
+  text-align: center;
+}
+
 .hero-title {
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
   color: var(--secondary-bgd-color);
+  margin-bottom: 30px;
+
 }
 
 .hero-button {
@@ -135,6 +198,11 @@ body {
   letter-spacing: 0.06em;
   color: var(--secondary-bgd-color);
   background: var(--activate-btn-color);
+  border-radius: 4px;
+  margin-bottom: 200px;
+  padding: 10px 32px;
+  width: 216px;
+  height: 50px;
 
 }
 
@@ -146,6 +214,11 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primary-tx-color);
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding-top: 94px;
+
+
 
 }
 
@@ -155,7 +228,12 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-tx-color);
+  margin-top: 10px;
+  margin-right: 30px;
+  padding-bottom: 94px;
 }
+
+
 
 /* Наши проекты ================================================ */
 
@@ -164,7 +242,15 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--primary-tx-color);
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+
+.project-item {
+  margin-right: 30px;
+  padding-bottom: 94px;
 }
 
 /* Фото нашей команды ================================================ */
@@ -175,14 +261,18 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.06em;
+  text-align: center;
   color: var(--primary-tx-color);
+  padding-top: 94px;
+  margin-bottom: 50px;
 }
-
 
 .team-card {
   background: var(--secondary-bgd-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+
+  margin-right: 30px;
+  margin-bottom: 30px;
+
 }
 
 .team-name {
@@ -190,7 +280,9 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--primary-tx-color);
+  margin-bottom: 10px;
 }
 
 .team-worked {
@@ -198,14 +290,14 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--secondary-tx-color);
+  padding-bottom: 94px;
 }
 
 /* Подвал ================================================ */
 
 .footer {
-  width: 1600px;
-  height: 252px;
   left: 0px;
   top: 2094px;
   font-style: normal;
@@ -238,6 +330,8 @@ body {
   color: var(--secondary-bgd-color);
 }
 
+
+
 /* Контакты подвала ================================================ */
 
 
@@ -268,4 +362,3 @@ body {
 .adress .contact:focus {
   color: var(--activate-btn-color);
 }
-
