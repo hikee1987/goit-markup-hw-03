@@ -64,14 +64,34 @@ img {
   padding-bottom: 94px;
 }
 
-/* Шапка сайта ================================================*/
 
+/**
+  |============================
+  | Header section
+  |============================
+*/
 .header {
   border-bottom: 1px solid #ececec;
 }
 
-.container-navi {
+.navi-about {
   display: flex;
+  margin-right: auto;
+  gap: 50px;
+    
+}
+
+.navi {
+  display: flex;
+  margin-right: auto;
+  gap:50px;
+}
+
+.navi-list {
+  display: flex;
+  margin-right: auto;
+  gap: 50px;
+  align-items: center;
 }
 
 .logo {
@@ -82,8 +102,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--activate-btn-color);
-  text-decoration: none;
-
+ 
   display: block;
   padding-top: 24px;
   margin-right: 94px;
@@ -91,12 +110,6 @@ img {
 
 .logo-color {
   color: var(--primary-tx-color);
-}
-
-.navi {
-  display: flex;
-  margin-right: auto;
-  gap: 50px;
 }
 
 .navi-item {
@@ -111,9 +124,7 @@ img {
   padding-bottom: 32px;
 }
 
-
-
-.navi-item .current {
+.navi .current {
   color: var(--activate-btn-color);
 }
 
@@ -122,15 +133,11 @@ img {
   color: var(--activate-btn-color);
 }
 
-.navi-list {
-  display: flex;
-  gap: 50px;
-}
-
-
-
-
-/* Наші переваги ================================================ */
+/**
+  |============================
+  | Main section
+  |============================
+*/
 
 .page .button {
   border-radius: 4px;
@@ -141,8 +148,10 @@ img {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  border-color: transparent;
   color: var(--primary-tx-color);
 }
+
 
 .page .button:hover,
 .page .button:focus {
@@ -169,11 +178,7 @@ img {
 
 }
 
-
-/* Контакты в шапке ================================================ */
-
-
-.auth .link {
+.list .navi-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -183,8 +188,8 @@ img {
   margin-right: 50px;
 }
 
-.auth .link:hover,
-.auth .link:focus {
+.list .navi-item:hover,
+.list .navi-item:focus {
   color: var(--activate-btn-color);
 }
 
@@ -192,33 +197,44 @@ img {
 
 .hero {
   text-align: center;
+  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-align: center;
   color: var(--secondary-bgd-color);
   margin-bottom: 30px;
-
 }
 
 .hero-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--secondary-bgd-color);
   background: var(--activate-btn-color);
   border-radius: 4px;
-  margin-bottom: 200px;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px 32px;
-  width: 216px;
-  height: 50px;
 
 }
 
-/* Описание с постами ================================================ */
+/**
+  |============================
+  | Description with posts
+  |============================
+*/
 
 .post .sub-title {
   font-weight: 700;
@@ -229,8 +245,6 @@ img {
   margin-right: 30px;
   margin-bottom: 10px;
   padding-top: 94px;
-
-
 
 }
 
@@ -247,7 +261,11 @@ img {
 
 
 
-/* Наши проекты ================================================ */
+/**
+  |============================
+  | Project
+  |============================
+*/
 
 .project-title {
   font-weight: 700;
@@ -265,7 +283,11 @@ img {
   padding-bottom: 94px;
 }
 
-/* Фото нашей команды ================================================ */
+/**
+  |============================
+  | Team Photos
+  |============================
+*/
 
 .team-title {
   font-style: normal;
@@ -307,7 +329,11 @@ img {
   padding-bottom: 94px;
 }
 
-/* Подвал ================================================ */
+/**
+  |============================
+  | Footer
+  |============================
+*/
 
 .footer {
   left: 0px;
@@ -319,8 +345,6 @@ img {
 
 }
 
-
-/* Лого подвала ================================================ */
 
 .footer .logo-color {
   font-style: normal;
@@ -343,11 +367,6 @@ img {
 }
 
 
-
-/* Контакты подвала ================================================ */
-
-
-
 .adress .map {
   text-decoration: none;
   font-style: normal;
@@ -356,8 +375,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-bgd-color);
-
-
 }
 
 .adress .contact {

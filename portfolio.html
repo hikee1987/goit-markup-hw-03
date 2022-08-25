@@ -17,41 +17,34 @@
   <body>
     <!-- Шапка сайта --------------------------------------------------------------------------------------------------------------------------------->
     <header class="header">
-      <div class="container">
-        <div class="header-navi">
-          <nav class="navi">
-            <a class="logo" href="./index.html">Web<span class="span">Studio</span></a>
-            <!-- Навигация по сайту ------------------------------------------------------------------------------------------------->
-
-            <ul class="list">
-              <li class="header-item"><a href="./index.html" class="link">Студія</a></li>
-              <li class="header-item"
-                ><a href="./portfolio.html" class="link current">Портфоліо</a></li
-              >
-              <li class="header-item"><a href="" class="link">Контакти</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <!-- Контакты в шапке ------------------------------------------------------------------------------------------------->
-        <ul class="list auth">
+      <div class="container header-container">
+        <nav class="navi-about">
+          <a class="logo" href="./index.html">Web<span class="logo-color">Studio</span></a>
+          <ul class="navi">
+            <li class="navi-item"><a href="./index.html">Студія</a></li>
+            <li class="navi-item current"><a href="./portfolio.html">Портфоліо</a></li>
+            <li class="navi-item"><a href="">Контакти</a></li>
+          </ul>
+        
+        <ul class="navi-list">
           <li>
-            <a href="mailto:info@devstudio.com" class="link current">info@devstudio.com</a>
+            <a class="navi-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:+380961111111" class="link">+380961111111</a>
+            <a class="navi-item" href="tel:+380961111111">+380961111111</a>
           </li>
         </ul>
+        </nav>
       </div>
     </header>
-    <!-- Главная страница ---------------------------------------------------------------------------------------------------------------------------->
+    <!-- Main section -->
     <main>
       <!-- Наші переваги ----------------------------------------------------------------------------------------------->
       <section class="page">
-        <div class="container">
+        <div class="container page-container">
           <h1 class="hide-title">Навігація сайтом</h1>
 
-          <ul class="list">
+          <ul class="page-list">
             <li><button type="button" class="button">Усі</button></li>
             <li><button type="button" class="button">Веб-сайти</button></li>
             <li><button type="button" class="button">Додатки</button></li>
@@ -146,10 +139,10 @@
       </section>
     </main>
 
-    <!-- Подвал ------------------------------------------------------------------------------------------------->
+    <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <!-- Лого подвала -->
+        <!-- Footer logo -->
         <a class="logo" href="./index.html"><span class="span">Web</span>Studio</a>
 
         <!-- Контакты подвала ------------------------------------------------------------------------------------------------->
