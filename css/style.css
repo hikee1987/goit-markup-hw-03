@@ -26,6 +26,7 @@ h3,
 ul,
 p {
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -37,14 +38,14 @@ a {
   visibility: hidden;
 }
 
-.list {
+ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -58,45 +59,47 @@ img {
   outline-offset: -2px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Шапка сайта ================================================*/
 
 .header {
   border-bottom: 1px solid #ececec;
 }
 
-.header-navi {
+.container-navi {
   display: flex;
 }
 
-/* .navi {
-  margin-top: 24px;
-  margin-right: 25px;
-  margin-bottom: 93px;
-} */
-
-.header-item {
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
-.navi .logo {
+.logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #000000;
-  text-decoration: none;
-}
-
-.navi .span {
   color: var(--activate-btn-color);
+  text-decoration: none;
+
+  display: block;
+  padding-top: 24px;
+  margin-right: 94px;
 }
 
-/* Навигация по сайту ================================================ */
+.logo-color {
+  color: var(--primary-tx-color);
+}
 
-.navi .link {
+.navi {
+  display: flex;
+  margin-right: auto;
+  gap: 50px;
+}
+
+.navi-item {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -104,17 +107,26 @@ img {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--primary-tx-color);
-
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
-.navi .current {
+
+
+.navi-item .current {
   color: var(--activate-btn-color);
 }
 
-.navi .link:hover,
-.navi .link:focus {
+.navi-item:hover,
+.navi-item:focus {
   color: var(--activate-btn-color);
 }
+
+.navi-list {
+  display: flex;
+  gap: 50px;
+}
+
 
 
 
@@ -310,7 +322,7 @@ img {
 
 /* Лого подвала ================================================ */
 
-.footer .span {
+.footer .logo-color {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
