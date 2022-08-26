@@ -241,6 +241,9 @@ img {
   padding-bottom: 200px;
 }
 
+.hero-container {
+  width: 700px;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -249,6 +252,7 @@ img {
   text-transform: uppercase;
   color: var(--secondary-bgd-color);
   margin-bottom: 30px;
+  
 
 }
 
