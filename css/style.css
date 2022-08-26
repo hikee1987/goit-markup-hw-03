@@ -34,7 +34,6 @@ a {
   color: currentColor;
 }
 
-
 .hide-title {
   visibility: hidden;
   position: absolute;
@@ -63,14 +62,11 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-
-
 }
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-
 }
 
 
@@ -108,7 +104,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--item-btn-color);
-
   display: block;
   padding-top: 24px;
   margin-right: 93px;
@@ -128,7 +123,6 @@ img {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
-
 }
 
 .navi .current {
@@ -168,9 +162,7 @@ img {
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
-
 }
-
 
 .button {
   border-radius: 4px;
@@ -182,7 +174,6 @@ img {
   line-height: 1.62;
   letter-spacing: 0.03em;
   border-color: transparent;
-
   color: var(--item-tx-color);
   text-align: center;
   padding: 6px 22px;
@@ -195,7 +186,6 @@ img {
   background: var(--item-btn-color);
 }
 
-
 .title {
   font-weight: 700;
   font-size: 18px;
@@ -203,7 +193,6 @@ img {
   letter-spacing: 0.06em;
   color: var(--item-tx-color);
   margin-bottom: 4px;
-
 }
 
 .text {
@@ -212,8 +201,6 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--item-prim-color);
-
-
 }
 
 .list .navi-item {
@@ -244,7 +231,6 @@ img {
   padding-bottom: 200px;
 }
 
-
 .hero-title {
   width: 696px;
   font-weight: 900;
@@ -256,8 +242,6 @@ img {
   margin-right: auto;
   margin-right: auto;
   margin-bottom: 30px;
-
-
 }
 
 .hero-button {
@@ -275,7 +259,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 10px 32px;
-
 }
 
 /**
@@ -298,7 +281,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--item-tx-color);
   margin-bottom: 10px;
-
 }
 
 .post .text-title {
@@ -307,16 +289,14 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--item-prim-color);
-
 }
-
-
 
 /**
   |============================
   | Project
   |============================
 */
+
 .project {
   padding-top: 0;
 }
@@ -335,10 +315,7 @@ img {
   text-align: center;
   color: var(--item-tx-color);
   margin-bottom: 50px;
-
 }
-
-
 
 /**
   |============================
@@ -358,14 +335,12 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--item-tx-color);
-
   margin-bottom: 50px;
 }
 
 .team-list {
   display: flex;
   gap: 30px;
-
 }
 
 .style-card {
@@ -377,9 +352,7 @@ img {
 }
 
 .team-card {
-
   margin-bottom: 30px;
-
 }
 
 .team-name {
@@ -400,7 +373,6 @@ img {
   text-align: center;
   color: var(--item-prim-color);
   margin-bottom: 30px;
-
 }
 
 /**
@@ -410,17 +382,13 @@ img {
 */
 
 .footer {
-
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   background: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
-
 }
-
-
 
 .logo-footer {
   font-family: 'Raleway';
@@ -443,7 +411,6 @@ img {
   color: var(--item-btn-color);
 }
 
-
 .adress .map {
   text-decoration: none;
   font-style: normal;
@@ -454,7 +421,6 @@ img {
   color: var(--item-bg-color);
   margin-top: 20px;
   margin-bottom: 9px;
-
 }
 
 .adress .footer-item {
@@ -466,13 +432,11 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
 }
 
 .adress .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
-
 
 .adress .footer-item:hover,
 .adress .footer-item:focus {
