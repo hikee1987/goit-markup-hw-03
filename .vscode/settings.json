@@ -111,5 +111,6 @@
     "navi",
     "Orlean",
     "Technoquack"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
